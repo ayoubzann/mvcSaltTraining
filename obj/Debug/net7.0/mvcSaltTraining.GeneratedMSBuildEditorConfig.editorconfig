@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/ayoubzannachi/salt/precourse/mvcSaltTraining
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/ayoubzannachi/salt/precourse/mvcSaltTraining/Views/Developers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGV2ZWxvcGVycy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ayoubzannachi/salt/precourse/mvcSaltTraining/Views/Developers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGV2ZWxvcGVycy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/ayoubzannachi/salt/precourse/mvcSaltTraining/Views/Developers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGV2ZWxvcGVycy9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

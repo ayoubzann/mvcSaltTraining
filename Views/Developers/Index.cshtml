@@ -1,14 +1,29 @@
 @model List<Developer>;
-    
-<h1>Showing @Model.Count developers!</h1></Developer>
+
+<h1>Showing @Model.Count developers!</h1>
+</Developer>
 <h1>All developers</h1>
-<ul>
-    @{
-        foreach (var i in @Model ){
-            <li> ID: @i.ID </li>
-            <li> Name: @i.Name </li>
-            <li> Email: @i.Email </li>
-            <br/>
+<a asp-controller="Developers" asp-action="Create"> Create </a>
+<table>
+    <thead>
+        <tr>
+            <th> ID </th>
+            <th> Name </th>
+            <th> Email </th>
+            <th> Details </th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (var i in @Model)
+            {
+                <tr>
+                    <td>@i.ID</td>
+                    <td>@i.Name</td>
+                    <td>@i.Email</td>
+                    <td><a asp-controller="Developers" asp-action="Details" asp-route-id="@i.ID"> Details </a></td>
+                </tr>
+            }
         }
-    }
-</ul>
+    </tbody>
+</table>
