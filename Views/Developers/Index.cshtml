@@ -1,0 +1,14 @@
+@model List<Developer>;
+    
+<h1>Showing @Model.Count developers!</h1></Developer>
+<h1>All developers</h1>
+<ul>
+    @{
+        foreach (var i in @Model ){
+            <li> ID: @i.ID </li>
+            <li> Name: @i.Name </li>
+            <li> Email: @i.Email </li>
+            <br/>
+        }
+    }
+</ul>

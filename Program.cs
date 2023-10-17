@@ -1,6 +1,10 @@
+using mvcSaltTraining;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+var db = new Db();
+builder.Services.AddSingleton<Db>(db);
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
